@@ -36,11 +36,18 @@
 # else:
 #     print("error clave invalida")
 # NOMBRE DE USUARIO
-user=input("ingrese su nombre de usuario")
+# user=input("ingrese su nombre de usuario")
 
-if len(user)<4 :
-    print("muy pocos caracteres, use al menos 4")
-elif len(user)>10:
-    print("tiene muchos caracteres,use 10 o menos")
+# if len(user)<4 :
+#     print("muy pocos caracteres, use al menos 4")
+# elif len(user)>10:
+#     print("tiene muchos caracteres,use 10 o menos")
+# else:
+#     print("usuario creado correctamente")
+
+pin = int(input("cree su pin de 4 digitos"))
+if len(pin)==4:
+    print("el pin esta correcto")
+    pinn=int(pin)
 else:
-    print("usuario creado correctamente")
+    print("el pin esta correcto")

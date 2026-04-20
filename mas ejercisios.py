@@ -28,5 +28,19 @@
 # pedir la clave al usuario y verificar que sea shazam independiente de su case
 # indiferente de mayusculas o minusculas
 
-print("ingrese su clave")
-contra=int(input())
+
+# contra=int(input("ingrese la contraseña"))
+# passw="SHAZAM"
+# if passw==contra:
+#    print("ingreso correcto")
+# else:
+#     print("error clave invalida")
+# NOMBRE DE USUARIO
+user=input("ingrese su nombre de usuario")
+
+if len(user)<4 :
+    print("muy pocos caracteres, use al menos 4")
+elif len(user)>10:
+    print("tiene muchos caracteres,use 10 o menos")
+else:
+    print("usuario creado correctamente")
